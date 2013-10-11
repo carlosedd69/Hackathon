@@ -8,14 +8,14 @@ import java.util.List;
  */
 public class Usuario {
     
-    public String nombre,nicjname,contraseña,correo;
+    public String nombre,nickname,contraseña,correo;
     public int tipo;
     public List<String> Afiliadas;
     public List<Integer> Preferencias;
 
     public Usuario(String nombre, String nicjname, String contraseña, String correo, int tipo, List<String> Afiliadas, List<Integer> Preferencias) {
         this.nombre = nombre;
-        this.nicjname = nicjname;
+        this.nickname = nicjname;
         this.contraseña = contraseña;
         this.correo = correo;
         this.tipo = tipo;
@@ -32,11 +32,11 @@ public class Usuario {
     }
 
     public String getNicjname() {
-        return nicjname;
+        return nickname;
     }
 
     public void setNicjname(String nicjname) {
-        this.nicjname = nicjname;
+        this.nickname = nicjname;
     }
 
     public String getContraseña() {
@@ -81,7 +81,7 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" + "nombre=" + nombre + ", nicjname=" + nicjname + ", contrase\u00f1a=" + contraseña + ", correo=" + correo + ", tipo=" + tipo + ", Afiliadas=" + Afiliadas + ", Preferencias=" + Preferencias + '}';
+        return "Usuario{" + "nombre=" + nombre + ", nicjname=" + nickname + ", contrase\u00f1a=" + contraseña + ", correo=" + correo + ", tipo=" + tipo + ", Afiliadas=" + Afiliadas + ", Preferencias=" + Preferencias + '}';
     }
     
     
