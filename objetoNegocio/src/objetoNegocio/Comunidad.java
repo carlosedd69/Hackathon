@@ -12,4 +12,7 @@ public class Comunidad {
     public String nombre, descripcion,propietario;
     public List<Usuario> Usuarios;
     public Fecha Actividad;
+    public List<Evento> Eventos;
+    public <Publicacion> Publicaciones;
+   
 }
