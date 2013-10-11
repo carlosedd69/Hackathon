@@ -13,9 +13,9 @@ public class Usuario {
     public List<String> Afiliadas;
     public List<Integer> Preferencias;
 
-    public Usuario(String nombre, String nicjname, String contraseña, String correo, int tipo, List<String> Afiliadas, List<Integer> Preferencias) {
+    public Usuario(String nombre, String nickname, String contraseña, String correo, int tipo, List<String> Afiliadas, List<Integer> Preferencias) {
         this.nombre = nombre;
-        this.nickname = nicjname;
+        this.nickname = nickname;
         this.contraseña = contraseña;
         this.correo = correo;
         this.tipo = tipo;
